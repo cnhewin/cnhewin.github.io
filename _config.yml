@@ -1,41 +1,58 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+safe: false
+permalink: /posts/:title.html
+exclude:
+  - README.md
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: 禾文咨询
-email: mail@hewinsz.com
-description: >- # this means to ignore newlines until "baseurl:"
-  彼得·德鲁克：管理是一种实践，其本质不在于“知”而在于“行”；
-  其验证不在于逻辑，而在于成果；其唯一权威就是成就。
-baseurl: ""  # http://hewinsz.com
-url: "" # http://hewinsz.com
-github_username: cnhewin
+name: 管理者园地
+host: localhost
+desc: 彼得·德鲁克：管理是一种实践，其本质不在于“知”而在于“行”；其验证不在于逻辑，而在于成果；其唯一权威就是成就。
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+custom:
+    category:
+        default: Default Category
+        organization: Organization Category
+        development: Development Category
+        marketing: Marketing Category
+        requirement: Requirement Category
+        technique: Technique Category
+        enable: Enable Category
+        human: Human Category
+    categories:
+      - name:  default
+        title: Default Category
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+      - name:  organization
+        title: Organization Category   
+        
+      - name:  development
+        title: Development Category        
+
+      - name:  marketing
+        title: Marketing Category
+
+      - name:  requirement
+        title: Requirement Category
+      
+      - name:  technique
+        title: Technique Category
+        
+      - name:  enable
+        title: Enable Category      
+        
+      - name:  human
+        title: Human Category   
+
+    scrollingLoadCount: 0                          # 滚屏自动加载文章数量，“0”为关闭
+
+meta:
+    author:
+        name: Hewin Consultant
+        email: mail@hewinsz.com
+        disqus: your-disqus-short-name              # Disqus缩略标识
+        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
+        github: cnhewin                             # GitHub账号
+        gravatar: a1d858b3e21a066ac6a41eeae41457c2  # Gravatar头像标识
+
+    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
+    gapi: http://www.google.com/jsapi               # Google API地址
+    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
