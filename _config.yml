@@ -17,6 +17,7 @@ custom:
         technique: Technique Category
         enable: Enable Category
         human: Human Category
+        another: Another Category
     categories:
       - name:  default
         title: Default Category
@@ -42,17 +43,17 @@ custom:
       - name:  human
         title: Human Category   
 
+      - name:  another
+        title: Another Category   
+            
     scrollingLoadCount: 0                          # 滚屏自动加载文章数量，“0”为关闭
 
 meta:
     author:
-        name: Hewin Consultant
-        email: mail@hewinsz.com
-        disqus: your-disqus-short-name              # Disqus缩略标识
+        name: Foundation Management
+        email: mail#hewinsz.com
         gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
         github: cnhewin                             # GitHub账号
         gravatar: a1d858b3e21a066ac6a41eeae41457c2  # Gravatar头像标识
-
-    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址
     gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
