@@ -46,8 +46,18 @@
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
 		<p>管理咨询自留地.</p>
+	</div>				
+     
+	<div class="block block-thank">
+		<h3>Powered by</h3>
+		<p>
+			<a href="https://github.com/" target="_blank">GitHub</a>,
+			<a href="http://www.google.com/cse/" target="_blank">Google Custom Search</a>,
+			<a href="http://en.gravatar.com/" target="_blank">Gravatar</a>,
+			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
+			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
+		</p>
 	</div>
-		
 		
 </aside>
 
